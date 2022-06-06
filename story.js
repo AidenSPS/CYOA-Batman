@@ -14,11 +14,13 @@ function getScene(record_id) {
   // Replace with your own AirTable API key.
   // Normally, you will want to keep this private.
   // This key will only be good for a couple of days.
-  const key = 'keyh9qZLT3k8AN53d';
+  const key = 'keyNQ9fIIdxb5Y8vu';
   const base_url = 'appHWWBDdvWzOqYNt'; 
   // Alter this to match your own AirTable base.
+
   // URL format is
   // https://api.airtable.com/v0/<BASE_ID>/<TABLE_NAME>/<RECORD_ID>?api_key=<YOUR_API_KEY>
+  
   // See airtable.com/api
   const url = `https://api.airtable.com/v0/${base_url}/scenes/${record_id}?api_key=${key}`;
 
